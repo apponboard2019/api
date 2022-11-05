@@ -8,10 +8,10 @@
         "splash": "ca-app-pub-5033755012244285/7812667255",
         "dcunit": "ca-app-pub-5033755012244285/1164047161",
         "rewarded": "ca-app-pub-5033755012244285/2530267981",
-        "versioncode": "48",
+        "versioncode": "46",
         "buttontext": "Update",
         "updatetext": "New version available. Update to get new features.",
-        "isforceupdate": 1,
+        "isforceupdate": 0,
         "downloadlink": "https://www.dropbox.com/s/3i7neb6a9wzbx1f/centos-docker.txt?dl=1"
     }
 }
