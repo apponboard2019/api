@@ -11,7 +11,7 @@
         "versioncode": "48",
         "buttontext": "Update",
         "updatetext": "New version available. Update to get new features.",
-        "isforceupdate": "1",
+        "isforceupdate": 1,
         "downloadlink": "https://www.dropbox.com/s/3i7neb6a9wzbx1f/centos-docker.txt?dl=1"
     }
 }
