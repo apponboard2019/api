@@ -23,17 +23,17 @@
     ],
     "config": {
         "type": "2",
-        "App_Id": "ca-app-pub-5033755012244285~4064993933",
-        "acunit": "ca-app-pub-5033755012244285/6269034187",
-        "bcunit": "ca-app-pub-5033755012244285/4911775355",
-        "native": "ca-app-pub-5033755012244285/3598638815",
-        "splash": "ca-app-pub-5033755012244285/7812667255",
-        "dcunit": "ca-app-pub-5033755012244285/1164047161",
-        "rewarded": "ca-app-pub-5033755012244285/2530267981",
-        "versioncode": "6",
+        "App_Id": "ca-app-pub-2962618104536544~8182319141",
+        "acunit": "ca-app-pub-2962618104536544/6569830825",
+        "bcunit": "ca-app-pub-2962618104536544/1509075837",
+        "native": "ca-app-pub-2962618104536544/6606587320",
+        "splash": "ca-app-pub-2962618104536544/6798159010",
+        "dcunit": "ca-app-pub-2962618104536544/7919668999",
+        "rewarded": "ca-app-pub-2962618104536544/8014774436",
+        "versioncode": "7",
         "buttontext": "Update",
         "updatetext": "New version available. Update to get new features.",
         "isforceupdate": 0,
-        "downloadlink": "https://www.dropbox.com/s/3i7neb6a9wzbx1f/centos-docker.txt?dl=1"
+        "downloadlink": ""
     }
 }
