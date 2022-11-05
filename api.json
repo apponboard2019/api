@@ -1,4 +1,26 @@
 {
+        "servers": [
+        {
+            "server_id": "1",
+            "hostname": "United States",
+            "flag": "united_states_of_america",
+            "ip": "209.145.50.85",
+            "status": "1",
+            "type": "1",
+            "Priority": "1",
+            "operators": "ir-mci"
+        },
+        {
+            "server_id": "47",
+            "hostname": "United States",
+            "flag": "united_states_of_america",
+            "ip": "74.208.139.23",
+            "status": "1",
+            "type": "1",
+            "Priority": "1",
+            "operators": "irancell,mtn-irancell,mtnirancell"
+        }
+    ],
     "config": {
         "type": "2",
         "App_Id": "ca-app-pub-5033755012244285~4064993933",
