@@ -1,0 +1,39 @@
+{
+    "servers": [
+    {
+        "server_id": "1",
+        "hostname": "United States",
+        "flag": "united_states_of_america",
+        "ip": "209.145.50.85",
+        "status": "1",
+        "type": "1",
+        "Priority": "1",
+        "operators": "ir-mci"
+    },
+    {
+        "server_id": "47",
+        "hostname": "United States",
+        "flag": "united_states_of_america",
+        "ip": "74.208.139.23",
+        "status": "1",
+        "type": "1",
+        "Priority": "1",
+        "operators": "irancell,mtn-irancell,mtnirancell"
+    }
+],
+"config": {
+    "type": "2",
+    "App_Id": "ca-app-pub-2962618104536544~3392868109",
+    "acunit": "ca-app-pub-2962618104536544/4797412710",
+    "bcunit": "ca-app-pub-2962618104536544/3461647295",
+    "native": "ca-app-pub-2962618104536544/6606587320",
+    "splash": "ca-app-pub-2962618104536544/2554392756",
+    "dcunit": "ca-app-pub-2962618104536544/6984043613",
+    "rewarded": "ca-app-pub-2962618104536544/3044798600",
+    "versioncode": "402823558",
+    "buttontext": "Update",
+    "updatetext": "New version available. Update to get new features.",
+    "isforceupdate": 0,
+    "downloadlink": "http://oxera.online"
+}
+}
