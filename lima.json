@@ -1,257 +1,26 @@
 {
   "servers": [
     {
-      "server_id": "17",
+      "server_id": "0",
       "hostname": "United States",
       "flag": "united_states_of_america",
-      "ip": "5.161.131.119",
+      "ip": "s1.oxera.online",
       "status": "1",
       "type": "0",
       "Priority": "1",
       "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.131.119\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
+      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"s1.oxera.online\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
     },
     {
       "server_id": "18",
       "hostname": "United States",
       "flag": "united_states_of_america",
-      "ip": "5.161.184.45",
+      "ip": "s2.oxera.online",
       "status": "1",
       "type": "0",
       "Priority": "1",
       "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.184.45\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "19",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.180.161",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.180.161\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "20",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.182.160",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.182.160\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "21",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.108.11",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.108.11\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "22",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.177.68",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.177.68\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "23",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.177.68",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.177.68\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "1",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.86.248",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.86.248\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "2",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.46.212",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.46.212\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "3",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.181.189",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.181.189\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "4",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "157.90.124.120",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"157.90.124.120\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "5",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "162.55.209.111",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"162.55.209.111\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "6",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "167.235.141.246",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"167.235.141.246\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "7",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "94.130.75.200",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"94.130.75.200\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "8",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "5.75.150.103",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.75.150.103\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "9",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "5.75.150.105",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.75.150.105\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "10",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "5.75.150.110",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.75.150.110\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "12",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "5.75.150.108",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.75.150.108\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "13",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "5.75.150.109",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.75.150.109\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "14",
-      "hostname": "Germany",
-      "flag": "germany",
-      "ip": "5.75.150.131",
-      "status": "1",
-      "type": "1",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.75.150.131\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "15",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.183.13",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.183.13\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "16",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.81.222",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.81.222\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-    },
-    {
-      "server_id": "24",
-      "hostname": "United States",
-      "flag": "united_states_of_america",
-      "ip": "5.161.97.32",
-      "status": "1",
-      "type": "0",
-      "Priority": "1",
-      "operators": "irancell,mtn-irancell,mtnirancell",
-      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"5.161.97.32\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
+      "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"s2.oxera.online\",\"port\":11871,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"kcpSettings\":{\"congestion\":false,\"downlinkCapacity\":100,\"header\":{\"type\":\"none\"},\"mtu\":1350,\"readBufferSize\":1,\"seed\":\"XNEa6G37vc\",\"tti\":50,\"uplinkCapacity\":12,\"writeBufferSize\":1},\"network\":\"kcp\",\"security\":\"none\"},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
     }
   ],
   "config": {
