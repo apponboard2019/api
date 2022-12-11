@@ -696,7 +696,7 @@
   "config": {
     "type": "2",
     "App_Id": "ca-app-pub-2962618104536544~8182319141",
-    "acunit": null,
+    "acunit": "",
     "bcunit": "ca-app-pub-2962618104536544/1509075837",
     "native": "ca-app-pub-2962618104536544/6606587320",
     "splash": "ca-app-pub-2962618104536544/6798159010",
