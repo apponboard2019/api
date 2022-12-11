@@ -696,10 +696,10 @@
   "config": {
     "type": "2",
     "App_Id": "ca-app-pub-2962618104536544~8182319141",
-    "acunit": "ca-app-pub-2962618104536544/6569830825",
-    "bcunit": "",
+    "acunit": "",
+    "bcunit": "ca-app-pub-2962618104536544/1509075837",
     "native": "ca-app-pub-2962618104536544/6606587320",
-    "splash": "",
+    "splash": "ca-app-pub-2962618104536544/6798159010",
     "dcunit": "",
     "rewarded": "ca-app-pub-2962618104536544/8014774436",
     "versioncode": "9",
