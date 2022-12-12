@@ -641,7 +641,7 @@
     "checktrafficretrycount": 2,
     "splashtimeout": 10000,
     "aftershowtimeout": 60000,
-    "appinbackgroundtimeout": 10000,
+    "appinbackgroundtimeout": 60000,
     "isadvpnserverallowed": false,
     "isadvpnserverallowedonconnected": false,
     "shouldverifyadvpnconnection": true,
