@@ -685,6 +685,22 @@
     "buttontext": "Update",
     "updatetext": "New version available. Update to get new features.",
     "isforceupdate": 0,
-    "downloadlink": "https://reymarz.xyz/ox.apk"
+    "downloadlink": "https://reymarz.xyz/ox.apk",
+    "gplaylink": "http://play.google.com/store/apps/details?id=com.vpn.oxvpn",
+    "shouldverifyconnection": true,
+    "checktraffictimeout": 2000,
+    "checktrafficretrycount": 1,
+    "splashtimeout": 10000,
+    "aftershowtimeout": 10000,
+    "appinbackgroundtimeout": 10000,
+    "isadvpnserverallowed": true,
+    "isadvpnserverallowedonconnected": true,
+    "shouldverifyadvpnconnection": true,
+    "checkadvpntraffictimeout": 2000,
+    "checkadvpntrafficretrycount": 1,
+    "advpnserverretrycount" : 3,
+    "connectionfaliedlogenabled" : false,
+    "connectedlogenabled" : false,
+    "disconnectedlogenabled" : false
   }
 }
