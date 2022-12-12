@@ -642,7 +642,7 @@
     "splashtimeout": 10000,
     "aftershowtimeout": 10000,
     "appinbackgroundtimeout": 10000,
-    "isadvpnserverallowed": false,
+    "isadvpnserverallowed": true,
     "isadvpnserverallowedonconnected": false,
     "shouldverifyadvpnconnection": true,
     "checkadvpntraffictimeout": 2000,
