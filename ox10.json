@@ -1,16 +1,6 @@
 {
   "servers":[
         {
-            "server_id": 611,
-            "hostname": "Germany",
-            "flag": "germany",
-            "hostname_fa": "Germany",
-            "ip": "138.201.155.158",
-            "status": "1",
-            "type": "0",
-            "Priority": "1"
-        },
-        {
             "server_id": 214,
             "hostname": "Germany",
             "flag": "germany",
@@ -106,6 +96,16 @@
             "flag": "germany",
             "hostname_fa": "Germany",
             "ip": "138.201.246.134",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 611,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "138.201.155.158",
             "status": "1",
             "type": "0",
             "Priority": "1"
@@ -228,9 +228,9 @@
     "checkadvpntraffictimeout": 2000,
     "checkadvpntrafficretrycount": 1,
     "advpnserverretrycount" : 3,
-    "connectionfaliedlogenabled" : false,
-    "connectedlogenabled" : false,
-    "disconnectedlogenabled" : false,
+    "connectionfaliedlogenabled" : true,
+    "connectedlogenabled" : true,
+    "disconnectedlogenabled" : true,
     "back_urls" : "https://github.com/apponboard2019/api/blob/master/ox10.json?raw=true,https://reymarz.xyz/ox10.json,https://drive.google.com/uc?export=download&id=1vwYXe1GKAmxdWK3r0yrAX9vd_Ztx0_az"
   }
 }
