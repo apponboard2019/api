@@ -1,0 +1,236 @@
+{
+  "servers":[
+        {
+            "server_id": 214,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.169",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 729,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.170",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 500,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.177",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 494,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.178",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 2,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.0",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 493,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "138.201.153.139",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 971,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.246.106",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 507,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "162.55.42.119",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 404,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "142.132.189.97",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 795,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "138.201.246.134",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 611,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "138.201.155.158",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 920,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.93",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 29,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.252.235",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 206,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "138.201.116.202",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 673,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.255.252",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 876,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "167.235.228.247",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 209,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.180",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 280,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.163",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 704,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.231",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        },
+        {
+            "server_id": 579,
+            "hostname": "Germany",
+            "flag": "germany",
+            "hostname_fa": "Germany",
+            "ip": "5.75.185.69",
+            "status": "1",
+            "type": "0",
+            "Priority": "1"
+        }
+        ],
+  "config": {
+    "type": "2",
+    "App_Id": "ca-app-pub-2962618104536544~8182319141",
+    "acunit": "ca-app-pub-2962618104536544/6569830825",
+    "bcunit": "ca-app-pub-2962618104536544/1509075837",
+    "native": "ca-app-pub-2962618104536544/6606587320",
+    "splash": "ca-app-pub-2962618104536544/6798159010",
+    "dcunit": "ca-app-pub-2962618104536544/7919668999",
+    "rewarded": "ca-app-pub-2962618104536544/8014774436",
+    "versioncode": "9",
+    "buttontext": "Update",
+    "updatetext": "New version available. Update to get new features.",
+    "isforceupdate": 0,
+    "downloadlink": "https://reymarz.xyz/ox.apk",
+    "gplaylink": "http://play.google.com/store/apps/details?id=com.vpn.oxvpn",
+    "shouldverifyconnection": true,
+    "checktraffictimeout": 2000,
+    "checktrafficretrycount": 2,
+    "splashtimeout": 10000,
+    "aftershowtimeout": 60000,
+    "appinbackgroundtimeout": 60000,
+    "isadvpnserverallowed": false,
+    "isadvpnserverallowedonconnected": false,
+    "shouldverifyadvpnconnection": true,
+    "checkadvpntraffictimeout": 2000,
+    "checkadvpntrafficretrycount": 1,
+    "advpnserverretrycount" : 3,
+    "connectionfaliedlogenabled" : true,
+    "connectedlogenabled" : true,
+    "disconnectedlogenabled" : true,
+    "back_urls" : "https://ox.reymarz.xyz/ox10.json,https://drive.google.com/uc?export=download&id=1vwYXe1GKAmxdWK3r0yrAX9vd_Ztx0_az,https://github.com/apponboard2019/api/blob/master/ox10.json?raw=true"
+  }
+}
