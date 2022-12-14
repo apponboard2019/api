@@ -699,6 +699,7 @@
     "checkadvpntraffictimeout": 2000,
     "checkadvpntrafficretrycount": 1,
     "advpnserverretrycount": 3,
+    "log_server_url" : "http://log.reymarz.xyz/v1/connection",
     "connectionfaliedlogenabled": false,
     "connectedlogenabled": false,
     "disconnectedlogenabled": false
