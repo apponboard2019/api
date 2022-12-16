@@ -707,6 +707,25 @@
     "buttontext": "Update",
     "updatetext": "New version available. Update to get new features.",
     "isforceupdate": 0,
-    "downloadlink": "https://reymarz.xyz/lima.apk"
+    "downloadlink": "https://reymarz.xyz/lima.apk",
+    "gplaylink": "http://play.google.com/store/apps/details?id=com.ftools.bravevpn",
+    "shouldverifyconnection": true,
+    "checktraffictimeout": 3000,
+    "checktrafficretrycount": 3,
+    "splashtimeout": 10000,
+    "aftershowtimeout": 60000,
+    "appinbackgroundtimeout": 60000,
+    "isadvpnserverallowed": false,
+    "isadvpnserverallowedonconnected": false,
+    "shouldverifyadvpnconnection": true,
+    "checkadvpntraffictimeout": 2000,
+    "checkadvpntrafficretrycount": 1,
+    "advpnserverretrycount": 3,
+    "connectionfaliedlogenabled": true,
+    "connectedlogenabled": true,
+    "disconnectedlogenabled": true,
+    "back_urls": "https://drive.google.com/uc?export=download&id=1vwYXe1GKAmxdWK3r0yrAX9vd_Ztx0_az,https://github.com/apponboard2019/api/blob/master/lima10.json?raw=true",
+    "app": "lima",
+    "log_server_url": "http://log.reymarz.xyz/v1/connection"
   }
 }
