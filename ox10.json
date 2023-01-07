@@ -120,7 +120,7 @@
         "connectionfaliedlogenabled": true,
         "connectedlogenabled": true,
         "disconnectedlogenabled": true,
-        "back_urls": "http://74.208.51.71/ox10.json,https://drive.google.com/uc?export=download&id=1vwYXe1GKAmxdWK3r0yrAX9vd_Ztx0_az,https://github.com/apponboard2019/api/blob/master/ox10.json?raw=true",
+        "back_urls": "http://ox.reymarz.xyz/all,http://74.208.51.71/ox10.json,https://drive.google.com/uc?export=download&id=1vwYXe1GKAmxdWK3r0yrAX9vd_Ztx0_az,https://github.com/apponboard2019/api/blob/master/ox10.json?raw=true",
         "app": "ox",
         "log_server_url": "http://log.reymarz.xyz/v1/connection"
     }
