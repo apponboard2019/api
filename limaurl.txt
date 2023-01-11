@@ -1,1 +1,4 @@
-http://95.217.212.239
+{
+  "backendApi" : "http://95.217.212.239",
+  "checkNetworkUrl" : "http://ip-api.com/json/"
+}
