@@ -1,5 +1,5 @@
 {
-  "backendApi" : ["http://95.217.212.239"],
-  "checkNetworkUrl" : ["http://ip-api.com/json/"],
+  "backendUrls" : ["http://95.217.212.239"],
+  "checkNetUrls" : ["http://ip-api.com/json/"],
   "validityPeriod" : 18000
 }
