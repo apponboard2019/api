@@ -69,7 +69,7 @@
         "appinbackgroundtimeout": 60000,
         "isadvpnserverallowed": false,
         "isadvpnserverallowedonconnected": false,
-        "shouldverifyadvpnconnection": true,
+        "shouldverifyadvpnconnection": false,
         "checkadvpntraffictimeout": 4000,
         "checkadvpntrafficretrycount": 3,
         "advpnserverretrycount": 3,
