@@ -1,15 +1,15 @@
 {
     "servers": [
         {
-            "server_id": 331331,
-            "hostname": "Finland",
-            "hostname_fa": "Finland",
-            "ip": "s2.reymarz.xyz",
+            "server_id": 331332,
+            "hostname": "United States",
+            "hostname_fa": "United States",
+            "ip": "fk.virtualdedicatednetwork.com",
             "status": "0",
             "type": "0",
-            "flag": "finland",
+            "flag": "united states",
             "port": "443",
-            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"s2.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"s2.reymarz.xyz\"},\"path\":\"/db3635/\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
+            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"fk.virtualdedicatednetwork.com\",\"port\":443,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"0dc240be-8a64-c985-d32f-ac7a8c836d3a\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"serverName\":\"fk.virtualdedicatednetwork.com\"},\"wsSettings\":{\"headers\":{\"Host\":\"fk.virtualdedicatednetwork.com\"},\"path\":\"/ilsbvws\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
         },
         {
             "server_id": 122112,
@@ -23,48 +23,59 @@
             "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"s4.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"s4.reymarz.xyz\"},\"path\":\"/015b16a1a/\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
         },
         {
-            "server_id": 331332,
-            "hostname": "United States3",
-            "hostname_fa": "United States3",
-            "ip": "fk.virtualdedicatednetwork.com",
+            "server_id": 325325,
+            "hostname": "United States",
+            "hostname_fa": "United States",
+            "ip": "server1.reymarz.xyz",
             "status": "0",
             "type": "0",
-            "flag": "united states3",
+            "flag": "united states",
             "port": "443",
-            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"fk.virtualdedicatednetwork.com\",\"port\":443,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"0dc240be-8a64-c985-d32f-ac7a8c836d3a\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"serverName\":\"fk.virtualdedicatednetwork.com\"},\"wsSettings\":{\"headers\":{\"Host\":\"fk.virtualdedicatednetwork.com\"},\"path\":\"/ilsbvws\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
-        },
-        {
-            "server_id": 324324,
-            "hostname": "United States4",
-            "hostname_fa": "United States4",
-            "ip": "server2.reymarz.xyz",
-            "status": "0",
-            "type": "0",
-            "flag": "united states4",
-            "port": "443",
-            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"56c1ac99-3706-b71f-db91-8952cb9f6617\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"server2.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"server2.reymarz.xyz\"},\"path\":\"/wfsnvws\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
+            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"server1.reymarz.xyz\",\"port\":443,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"1959aa4c-b324-d9b4-9284-3d5c8da56e38\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"server1.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"server1.reymarz.xyz\"},\"path\":\"/riutvws\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
         },
         {
             "server_id": 122113,
-            "hostname": "Germany1",
-            "hostname_fa": "Germany1",
+            "hostname": "Germany",
+            "hostname_fa": "Germany",
             "ip": "s5.reymarz.xyz",
             "status": "0",
             "type": "0",
-            "flag": "germany1",
+            "flag": "germany",
             "port": "443",
             "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"s5.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"s5.reymarz.xyz\"},\"path\":\"/10105337de22/\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
         },
         {
             "server_id": 221221,
-            "hostname": "United States2",
-            "hostname_fa": "United States2",
+            "hostname": "United States",
+            "hostname_fa": "United States",
             "ip": "server.reymarz.xyz",
             "status": "0",
             "type": "0",
-            "flag": "united states2",
+            "flag": "united states",
             "port": "443",
             "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"server.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"server.reymarz.xyz\"},\"path\":\"/fde6b78773/\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
+        },
+        {
+            "server_id": 324324,
+            "hostname": "United States",
+            "hostname_fa": "United States",
+            "ip": "server2.reymarz.xyz",
+            "status": "0",
+            "type": "0",
+            "flag": "united states",
+            "port": "443",
+            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"56c1ac99-3706-b71f-db91-8952cb9f6617\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"server2.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"server2.reymarz.xyz\"},\"path\":\"/wfsnvws\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
+        },
+        {
+            "server_id": 331331,
+            "hostname": "Finland",
+            "hostname_fa": "Finland",
+            "ip": "s2.reymarz.xyz",
+            "status": "0",
+            "type": "0",
+            "flag": "finland",
+            "port": "443",
+            "config": "{\"dns\":{\"hosts\":{\"domain:googleapis.cn\":\"googleapis.com\"},\"servers\":[\"1.1.1.1\"]},\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":10808,\"protocol\":\"socks\",\"settings\":{\"auth\":\"noauth\",\"udp\":true,\"userLevel\":8},\"sniffing\":{\"destOverride\":[\"http\",\"tls\"],\"enabled\":true},\"tag\":\"socks\"},{\"listen\":\"127.0.0.1\",\"port\":10809,\"protocol\":\"http\",\"settings\":{\"userLevel\":8},\"tag\":\"http\"},{\"listen\":\"127.0.0.1\",\"port\":10853,\"protocol\":\"dokodemo-door\",\"settings\":{\"address\":\"1.1.1.1\",\"network\":\"tcp,udp\",\"port\":53},\"tag\":\"dns-in\"}],\"log\":{\"loglevel\":\"warning\"},\"outbounds\":[{\"mux\":{\"concurrency\":8,\"enabled\":false},\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"codepen.io\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"\",\"id\":\"54e56540-71de-4840-fc39-433a69d10f53\",\"level\":8,\"security\":\"auto\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"allowInsecure\":false,\"fingerprint\":\"\",\"serverName\":\"s2.reymarz.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"s2.reymarz.xyz\"},\"path\":\"/db3635/\"}},\"tag\":\"proxy\"},{\"protocol\":\"freedom\",\"settings\":{},\"tag\":\"direct\"},{\"protocol\":\"blackhole\",\"settings\":{\"response\":{\"type\":\"http\"}},\"tag\":\"block\"},{\"protocol\":\"dns\",\"tag\":\"dns-out\"}],\"routing\":{\"domainMatcher\":\"mph\",\"domainStrategy\":\"IPIfNonMatch\",\"rules\":[{\"inboundTag\":[\"dns-in\"],\"outboundTag\":\"dns-out\",\"type\":\"field\"},{\"ip\":[\"1.1.1.1\"],\"outboundTag\":\"proxy\",\"port\":\"53\",\"type\":\"field\"}]}}"
         }
     ],
     "config": {
