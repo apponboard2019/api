@@ -3,7 +3,7 @@
         {
             "server_id": 1022,
             "hostname": "Finland",
-            "hostname_fa": "Finland",
+            "hostname_fa": "Finland(H)",
             "ip": "alp51025.alpi-moon.shop",
             "status": 1,
             "type": "0",
@@ -25,7 +25,7 @@
         {
             "server_id": 1023,
             "hostname": "Germany",
-            "hostname_fa": "Germany",
+            "hostname_fa": "Germany(H)",
             "ip": "usa51025.usa123.click",
             "status": 1,
             "type": "0",
@@ -36,7 +36,7 @@
         {
             "server_id": 1020,
             "hostname": "Finland",
-            "hostname_fa": "Finland",
+            "hostname_fa": "Finland(H)",
             "ip": "alp51025.alpi-moon.click",
             "status": 1,
             "type": "0",
@@ -58,7 +58,7 @@
         {
             "server_id": 10211,
             "hostname": "Germany",
-            "hostname_fa": "Germany",
+            "hostname_fa": "Germany(I)",
             "ip": "alp51025.alpi-moon.sbs",
             "status": 1,
             "type": "0",
@@ -69,7 +69,7 @@
         {
             "server_id": 10221,
             "hostname": "Finland",
-            "hostname_fa": "Finland",
+            "hostname_fa": "Finland(I)",
             "ip": "alp51025.alpi-moon.shop",
             "status": 1,
             "type": "0",
@@ -80,7 +80,7 @@
         {
             "server_id": 10201,
             "hostname": "Finland",
-            "hostname_fa": "Finland",
+            "hostname_fa": "Finland(I)",
             "ip": "lko51025.alpi-moon.click",
             "status": 1,
             "type": "0",
@@ -91,7 +91,7 @@
         {
             "server_id": 10161,
             "hostname": "Germany",
-            "hostname_fa": "Germany",
+            "hostname_fa": "Germany(I)",
             "ip": "mlo51025.lima-new.shop",
             "status": 1,
             "type": "0",
@@ -101,7 +101,7 @@
         },
         {
             "server_id": 1021,
-            "hostname": "Germany",
+            "hostname": "Germany(H)",
             "hostname_fa": "Germany",
             "ip": "alp51025.alpi-moon.sbs",
             "status": 1,
