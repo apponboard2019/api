@@ -1,5 +1,0 @@
-{
-  "backendUrls" : ["http://135.181.36.11/all", "http://135.181.36.11/all"],
-  "checkNetUrls" : ["http://ip-api.com/json/"],
-  "validityPeriod" : 18000
-}
