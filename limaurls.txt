@@ -1,0 +1,5 @@
+{
+  "backendUrls" : ["http://fft1-11.sbs/all"],
+  "checkNetUrls" : ["http://ip-api.com/json/"],
+  "validityPeriod" : 18000
+}
