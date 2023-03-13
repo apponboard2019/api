@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["https://raw.githubusercontent.com/apponboard2019/api/master/usa8.json"],
+  "backendUrls" : ["http://usa1.fft1-10.sbs/all"],
   "checkNetUrls" : ["http://ip-api.com/json/"],
   "validityPeriod" : 18000
 }
