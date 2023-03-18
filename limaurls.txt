@@ -1,5 +1,5 @@
 {
   "backendUrls" : ["http://lima1.fft1-11.sbs/all"],
   "checkNetUrls" : ["http://ip-api.com/json/"],
-  "validityPeriod" : 18000
+  "validityPeriod" : 3600000
 }
