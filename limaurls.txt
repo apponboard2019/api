@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://lima1.fft1-11.sbs/all"],
+  "backendUrls" : ["http://lima8.appsongplay.com/all"],
   "checkNetUrls" : ["http://ip-api.com/json/"],
   "validityPeriod" : 3600000
 }
