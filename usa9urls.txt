@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://usa23.appsongplay.com/all","http://usa2.appsongplay.com/all","https://raw.githubusercontent.com/apponboard2019/api/master/usa9.json","https://raw.githubusercontent.com/apponboard2019/api/master/usa8.json"],
+  "backendUrls" : ["http://usa1.appsongplay.com/all"],
   "checkNetUrls" : ["https://pro.ip-api.com/json/?key=ZcouVc39dSX9ZrA","http://ip.appsongplay.com:8080/home/GetInfo"],
   "validityPeriod" : 36000000
 }
