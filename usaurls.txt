@@ -1,5 +1,5 @@
 {
   "backendUrls" : ["http://usa1.appsongplay.com"],
-  "checkNetUrls" : ["https://pro.ip-api.com/json/?key=d9ekFbCzQGYVnzw"],
+  "checkNetUrls" : ["https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 36000000
 }
