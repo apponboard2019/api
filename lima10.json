@@ -1,1 +1,1 @@
-{}
+{"error":"Something went wrong. And we are reporting a custom error message.","err":{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"10.0.3.149","port":3000},"status":500}
