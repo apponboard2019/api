@@ -1,5 +1,0 @@
-{
-  "backendUrls" : ["http://208.109.245.244/all","http://eu8.appsongplay.com/all"],
-  "checkNetUrls" : ["http://ip.appsongplay.com:8080/home/GetInfo","https://pro.ip-api.com/json/?key=ZcouVc39dSX9ZrA"],
-  "validityPeriod" : 36000000
-}
