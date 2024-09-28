@@ -1,6 +1,6 @@
 {
   "backendUrls" : ["http://newox.appsongplay.com/all","http://92.205.28.41/all","http://ox.appsongplay.com/all"],
   "checkNetUrls" : ["http://ip.appsongplay.com:8080/home/GetInfo","http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
-  "verifyUrls" : ["http://92.205.161.10/ok.json","https://google.com","https://parspack.com/","http://ip.appsongplay.com:8080/home/GetInfo","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
+  "verifyUrls" : ["http://92.205.161.10/ok.json","https://google.com","http://1.1.1.1","http://ip.appsongplay.com:8080/home/GetInfo","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
 }
