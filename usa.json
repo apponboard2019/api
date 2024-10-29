@@ -1,1 +1,152 @@
-<html> <head><title>301 Moved Permanently</title></head> <body> <center><h1>301 Moved Permanently</h1></center> <hr><center>nginx</center> </body> </html>
+{
+    "servers": [
+        
+    ],
+    "config": {
+        "_id": "66cdc102bf578cc9dedeffb5",
+        "type": "2",
+        "App_Id": "",
+        "acunit": "",
+        "bcunit": "",
+        "native": "",
+        "splash": "",
+        "dcunit": "",
+        "rewarded": "",
+        "versioncode": "1",
+        "buttontext": "Update",
+        "updatetext": "New version available. Update to get new features.",
+        "isforceupdate": 1,
+        "downloadlink": "https://verify.appsongplay.com/dl/eu-9.apk",
+        "gplaylink": "http://play.google.com/store/apps/details?id=com.vpn.euvpn",
+        "shouldverifyconnection": true,
+        "checktraffictimeout": 4000,
+        "checktrafficretrycount": 2,
+        "splashtimeout": 40000,
+        "aftershowtimeout": 60000,
+        "appinbackgroundtimeout": 60000,
+        "isadvpnserverallowed": true,
+        "isadvpnserverallowedonconnected": true,
+        "shouldverifyadvpnconnection": false,
+        "checkadvpntraffictimeout": 6000,
+        "checkadvpntrafficretrycount": 2,
+        "advpnserverretrycount": 3,
+        "connectionfaliedlogenabled": true,
+        "connectedlogenabled": true,
+        "disconnectedlogenabled": false,
+        "app": "eu-8",
+        "verifyadvpnconnectionurl": "http://92.205.161.10/ok.json",
+        "verifyconnectionurl": "http://92.205.161.10/ok.json",
+        "privacyurl": "https://docs.google.com/document/d/1KKPX2yv35te4Nw1_kt2lpA-rQDlMjfj-6hunTl9AadY/edit?usp=sharing",
+        "forcedisconnectinterval": 7200000,
+        "forcedisconnectenabled": false,
+        "adtimeoutlogenabled": true,
+        "adshowedlogenabled": true,
+        "adfailedlogenabled": true,
+        "adloadedlogenabled": true,
+        "disconnectinterval": 18000000,
+        "isiplocationdataenabled": true,
+        "isurldataloaderenabled": false,
+        "isdisconnectcheckerenabled": false,
+        "backendUrlExpireTime": 120000,
+        "ping_server_url": "https://data.mongodb-api.com/app/data-vwhla/endpoint",
+        "admob_log_url": "http://68.178.175.161",
+        "connection_log_url": "http://68.178.175.161",
+        "getdatatimeout": 10000,
+        "getdataretrycount": 2,
+        "checknetworktimeout": 10000,
+        "checknetworkretrycount": 1,
+        "adtimeout": 30000,
+        "updatetext_fa": "نسخه جدید از این برنامه موجود می باشد. برای دانلود از روشهای زیر اقدام نمایید",
+        "isdcunitpreloadingenabled": false,
+        "vpnserververifymethod": 0,
+        "adcategory": "euads",
+        "workercategory": "generalworkers",
+        "adblockedapps": "com.facebook.katana,com.instagram.android,com.snapchat.android,com.twitter.android,com.whatsapp,com.facebook.orca,com.google.android.apps.messaging,com.skype.raider,com.viber.voip,com.linkedin.android,com.pinterest,com.tumblr,com.reddit.frontpage,com.discord,com.facebook.lite,com.zhiliaoapp.musically,com.wechat,com.bbm,com.imo.android.imoim,com.kakao.talk,com.sgiggle.production,com.instagram.lite,com.facebook.mlite,com.telegram.messenger,org.thoughtcrime.securesms,com.whatsapp.w4b,com.linecorp.line,com.tencent.mobileqq,com.yahoo.mobile.client.android.im,com.hike.chat.stickers,jp.naver.line.android,com.yandex.launcher,com.path,com.mi.globalbrowser,com.vkontakte.android,com.android.chrome,org.mozilla.firefox,com.opera.browser,com.opera.mini.native,com.microsoft.emmx,com.brave.browser,com.sec.android.app.sbrowser,com.UCMobile.intl,com.chrome.beta\n",
+        "beforeConnectBcuniEnabled": true,
+        "beforeConnectSplashEnabled": true
+    },
+    "protocols": [
+        {
+            "_id": "640a8d8541ddda2a4ccffb91",
+            "enabled": true,
+            "config": "{}",
+            "name": "Fragment",
+            "operator": "general,others",
+            "https": true
+        },
+        {
+            "_id": "668e847ba8049c5a9e82f590",
+            "enabled": true,
+            "config": "{}",
+            "name": "Direct",
+            "operator": "general,others",
+            "https": true
+        },
+        {
+            "_id": "66a2e9be9307a097222f1975",
+            "enabled": true,
+            "config": "{}",
+            "name": "AntiFilter",
+            "operator": "general,others",
+            "https": false
+        },
+        {
+            "_id": "66a71f4252251a57e3f54797",
+            "enabled": true,
+            "config": "{}",
+            "name": "Mux",
+            "operator": "general,others",
+            "https": false
+        }
+    ],
+    "fake_addresses": [
+        {
+            "_id": "647b114dca9ee5237a1f9d69",
+            "address": "zula.ir",
+            "operator": "general",
+            "index": "1",
+            "addresses": [
+                "zula.ir"
+            ]
+        }
+    ],
+    "contact_us": [
+        {
+            "_id": "66e0caf9baf6ed7dbe93444e",
+            "id": "1",
+            "en": "Sometimes can’t connect to the servers",
+            "fa": "گاها به سرورها وصل نمی شود"
+        },
+        {
+            "_id": "66e0cb3bbf578cc9deca20dc",
+            "id": "2",
+            "en": "Servers are slow",
+            "fa": "سرورها ضعیف و کند عمل میکنند"
+        },
+        {
+            "_id": "66e0cb57bf578cc9decadc1e",
+            "id": "3",
+            "en": "Connection is not stable",
+            "fa": "اتصال پایدار نمی باشد"
+        },
+        {
+            "_id": "66e0cb6abf578cc9decb5f53",
+            "id": "4",
+            "en": "App has too many ads",
+            "fa": "تبلیغات بیش از حد می باشد"
+        },
+        {
+            "_id": "66e0cb6dbaf6ed7dbe934452",
+            "id": "5",
+            "en": "VPN works very well",
+            "fa": "فیلتر شکن عالی کار میکند"
+        },
+        {
+            "_id": "66e0cb89bf578cc9decc36c4",
+            "id": "6",
+            "en": "Other / Not on the list",
+            "fa": "غیره / در لیست موجود نیست",
+            "other": true
+        }
+    ]
+}
