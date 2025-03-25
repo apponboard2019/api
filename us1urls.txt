@@ -1,0 +1,6 @@
+{
+  "backendUrls" : ["http://us.usaapp-24359.com:8081/usa-1/all","http://92.205.21.227:8081/usa-1/all"],
+  "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "verifyUrls" : ["http://ip.us.usaapp-2435.com:8080/home/GetInfo","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
+  "validityPeriod" : 120000
+}
