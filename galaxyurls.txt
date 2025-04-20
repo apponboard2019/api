@@ -1,6 +1,6 @@
 {
   "backendUrls" : ["http://92.205.28.41:4000/galaxy/all","http://galaxy.galaxyapps24.com:4000/galaxy/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
-  "verifyUrls" : ["http://92.205.161.10/ok.json","https://google.com","http://1.1.1.1","http://ip.appsongplay.com:8080/home/GetInfo","http://pro.ip-api.com>
+  "verifyUrls" : ["http://92.205.161.10/ok.json","https://google.com","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 120000
 }
