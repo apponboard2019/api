@@ -1,0 +1,6 @@
+{
+  "backendUrls" : ["http://92.205.28.41:4001/bull/all","http://bull.bullapp24.com:4001/bull/all"],
+  "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "verifyUrls" : ["http://92.205.161.10/ok.json","https://google.com","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "validityPeriod" : 120000
+}
