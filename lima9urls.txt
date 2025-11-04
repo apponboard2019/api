@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://newox.appsongplay.com/lima/all","http://92.205.28.41/lima/all"],
+  "backendUrls" : ["http://limaapp-2435.com/lima/all","http://92.205.28.41/lima/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 120000
 }
