@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://newox.appsongplay.com/ox/all","http://92.205.28.41/ox/all"],
+  "backendUrls" : ["http://limaapp-2435.com/ox/all","http://92.205.28.41/ox/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
 }
