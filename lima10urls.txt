@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://apps24hoursnew/lima/all","http://limaapp-2435.com/lima/all","http://92.205.28.41/lima/all"],
+  "backendUrls" : ["http://38.54.84.203/ox-13/all","http://apps24hoursnew/lima/all","http://limaapp-2435.com/lima/all","http://92.205.28.41/lima/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["http://92.205.161.10/ok.json","https://google.com","http://1.1.1.1","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
