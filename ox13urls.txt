@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://159.223.136.60/ox-13/all","http://apps24hoursnew/ox-13/all","http://limaapp-2435.com/ox-13/all","http://92.205.28.41/ox-13/all"],
+  "backendUrls" : ["http://146.190.215.147/ox-13/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
