@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://159.223.136.60/galaxy/all","http://92.205.28.41:4000/galaxy/all","http://galaxy.galaxyapps24.com:4000/galaxy/all"],
+  "backendUrls" : ["http://206.189.206.102/galaxy/all","http://92.205.28.41:4000/galaxy/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 120000
