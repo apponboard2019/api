@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://206.189.206.102/bull/all"],
+  "backendUrls" : ["https://app.bullappnew.info/bull/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 120000
