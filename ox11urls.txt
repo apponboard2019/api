@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["http://159.223.136.60/ox-13/all","http://limaapp-2435.com/ox/all","http://92.205.28.41/ox/all"],
+  "backendUrls" : [["https://app.oxapp2025.info/ox-13/all","http://206.189.206.102/ox-13/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
 }
