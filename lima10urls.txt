@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["https://fkap.s3.us-east-1.amazonaws.com/lima.json"],
+  "backendUrls" : ["http://165.22.7.57/lima/all"],
   "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
