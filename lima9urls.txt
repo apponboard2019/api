@@ -1,12 +1,6 @@
 {
-  "backendUrls": ["https://137.184.132.203/lima/all"],
-  "checkNetUrls": [
-    "http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J",
-    "https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"
-  ],
-  "verifyUrls": [
-    "https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU",
-    "http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"
-  ],
+  "backendUrls": ["https://206.189.236.95/lima/all"],
+  "checkNetUrls": ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "verifyUrls": ["https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod": 120000
 }
