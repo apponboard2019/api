@@ -1,6 +1,6 @@
 {
   "backendUrls": [
-    "https://143.198.177.74/lima/all"
+    "https://24.144.97.64/lima/all"
   ],
   "checkNetUrls": [
     "http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J",
