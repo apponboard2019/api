@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["https://fkap.s3.us-east-1.amazonaws.com/lima.json"],
+  "backendUrls" : [http://198.199.75.106/lima/all"],
   "checkNetUrls" : ["https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 120000
 }
