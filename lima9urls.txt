@@ -1,5 +1,5 @@
 {
-  "backendUrls": ["http://137.184.97.196/lima/all"],
+  "backendUrls": ["http://137.184.60.114/lima/all"],
   "checkNetUrls": ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls": ["https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod": 120000
