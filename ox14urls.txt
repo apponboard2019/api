@@ -1,6 +1,6 @@
 {
   "backendUrls" : ["https://s3.amazonaws.com/fkap/ox-13.json","https://app.oxapp2025.info/ox-13/all"],
-  "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "checkNetUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
 }
