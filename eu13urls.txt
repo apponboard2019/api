@@ -1,6 +1,6 @@
 {
   "backendUrls" : ["https://s3.amazonaws.com/fkap/eu-8.json","https://euappnew.info/eu-8/all","http://206.189.206.102/eu-8/all"],
-  "checkNetUrls" : ["http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "checkNetUrls" : ["http://apps24hoursnew.com:8080/location","http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
 }
