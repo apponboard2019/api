@@ -1,5 +1,6 @@
 {
-  "backendUrls" : ["http://206.189.206.102/usa-1/all"],
-  "checkNetUrls" : ["https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","http://ip.appsongplay.com:8080/home/GetInfo"],
+  "backendUrls" : ["https://s3.amazonaws.com/fkap/usa-1.json"],
+  "checkNetUrls" : ["http://apps24hoursnew.com:8080/location","http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "verifyUrls" : ["http://68.178.175.161:8080/location","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
   "validityPeriod" : 120000
 }
