@@ -1,5 +1,5 @@
 {
-  "backendUrls" : ["https://s3.amazonaws.com/fkap/bull.json","https://bullappnew.info/bull/all"],
+  "backendUrls" : ["https://s3.amazonaws.com/fkap/bull.json"],
   "checkNetUrls" : ["http://apps24hoursnew.com:8080/location","http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "verifyUrls" : ["http://68.178.175.161:8080/location","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
   "validityPeriod" : 120000
