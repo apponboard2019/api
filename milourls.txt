@@ -1,0 +1,6 @@
+{
+  "backendUrls" : ["https://s3.amazonaws.com/fkap/milo.json"],
+  "checkNetUrls" : ["http://apps24hoursnew.com:8080/location","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "verifyUrls" : ["http://apps24hoursnew.com:8080/location"],
+  "validityPeriod" : 120000
+}
