@@ -1,6 +1,6 @@
 {
-  "backendUrls" : ["https://s3.amazonaws.com/fkap/ox-13.json"],
-  "checkNetUrls" : ["http://apps24hoursnew.com:8080/location","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
-  "verifyUrls" : ["http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
-  "validityPeriod" : 120000
+  "backendUrls": ["http://adservernewsp.info/ox-13/all"],
+  "checkNetUrls": ["http://ip.adservernewsp.info:8080/location","http://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J","https://pro.ip-api.com/json/?key=uRZv1sU8mQYmo8J"],
+  "verifyUrls": ["http://68.178.175.161:8080/location","https://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU","http://pro.ip-api.com/json/?key=azfoqwJq3CPu9pU"],
+  "validityPeriod": 120000
 }
