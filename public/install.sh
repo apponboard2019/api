@@ -34,6 +34,8 @@ DEFAULT_AGENT_BINARY_NAME="agent-linux-amd64"
 CONTROL_PLANE_URL=""
 JOIN_TOKEN=""
 SERVER_ID=""
+AGENT_ID=""
+AGENT_TOKEN=""
 PROVIDER="unknown"
 PROVIDER_ACCOUNT_ID=""
 REGION=""
@@ -221,6 +223,8 @@ write_config() {
   cat > "${CONFIG_DIR}/config.env" <<CONFIG
 CONTROL_PLANE_URL="${CONTROL_PLANE_URL}"
 SERVER_ID="${SERVER_ID}"
+AGENT_ID="${AGENT_ID}"
+AGENT_TOKEN="${AGENT_TOKEN}"
 PROVIDER="${PROVIDER}"
 PROVIDER_ACCOUNT_ID="${PROVIDER_ACCOUNT_ID}"
 REGION="${REGION}"
@@ -237,9 +241,9 @@ TOKEN
     chmod 0600 "${CONFIG_DIR}/join-token"
   fi
 
-  chown -R root:"${AGENT_GROUP}" "${CONFIG_DIR}"
+  chown -R root:root "${CONFIG_DIR}"
   chmod 0750 "${CONFIG_DIR}"
-  chmod 0640 "${CONFIG_DIR}/config.env"
+  chmod 0600 "${CONFIG_DIR}/config.env"
 }
 
 register_agent() {
@@ -250,7 +254,7 @@ register_agent() {
 
   log "Registering agent with Control Plane"
 
-  local hostname machine_id primary_ip payload response status token
+  local hostname machine_id primary_ip payload response status ok error
   hostname="$(hostname -f 2>/dev/null || hostname)"
   machine_id="$(cat /etc/machine-id 2>/dev/null || true)"
   primary_ip="$(hostname -I 2>/dev/null | awk '{print $1}' || true)"
@@ -282,16 +286,35 @@ register_agent() {
     return 0
   fi
 
-  token="$(printf '%s' "${response}" | jq -r '.agentToken // .token // empty' 2>/dev/null || true)"
-  if [[ -n "${token}" ]]; then
+  ok="$(printf '%s' "${response}" | jq -r '.ok // false' 2>/dev/null || echo "false")"
+  if [[ "${ok}" != "true" ]]; then
+    error="$(printf '%s' "${response}" | jq -r '.error // .message // "registration failed"' 2>/dev/null || echo "registration failed")"
+    err "Agent registration failed: ${error}"
+    exit 1
+  fi
+
+  AGENT_ID="$(printf '%s' "${response}" | jq -r '.agentId // empty' 2>/dev/null || true)"
+  AGENT_TOKEN="$(printf '%s' "${response}" | jq -r '.agentToken // .token // empty' 2>/dev/null || true)"
+  if [[ -z "${AGENT_ID}" ]]; then
+    err "Registration succeeded but response did not include agentId"
+    exit 1
+  fi
+
+  if [[ -n "${AGENT_TOKEN}" ]]; then
+    write_config
     cat > "${CONFIG_DIR}/agent-token" <<TOKEN
-${token}
+${AGENT_TOKEN}
 TOKEN
     chmod 0600 "${CONFIG_DIR}/agent-token"
-    chown root:"${AGENT_GROUP}" "${CONFIG_DIR}/agent-token"
+    chown root:root "${CONFIG_DIR}/agent-token"
+    if ! grep -q '^AGENT_TOKEN="[^"]' "${CONFIG_DIR}/config.env"; then
+      err "Agent registration succeeded but AGENT_TOKEN was not persisted to ${CONFIG_DIR}/config.env"
+      exit 1
+    fi
     log "Agent token saved"
   else
-    warn "Registration response did not include agentToken/token. Check Control Plane implementation."
+    err "Registration succeeded but response did not include agentToken/token"
+    exit 1
   fi
 }
 
@@ -407,8 +430,13 @@ first_health_report() {
     '{serverId:$serverId, agentService:$serviceStatus, primaryIp:$primaryIp, diskUsedPct:($diskPct|tonumber? // null), memoryTotalMb:($memTotalMb|tonumber? // null), timestamp:now|todate}' \
   )"
 
-  token=""
-  if [[ -f "${CONFIG_DIR}/agent-token" ]]; then
+  token="${AGENT_TOKEN}"
+  if [[ -z "${token}" && -f "${CONFIG_DIR}/config.env" ]]; then
+    # shellcheck disable=SC1090
+    source "${CONFIG_DIR}/config.env"
+    token="${AGENT_TOKEN:-}"
+  fi
+  if [[ -z "${token}" && -f "${CONFIG_DIR}/agent-token" ]]; then
     token="$(cat "${CONFIG_DIR}/agent-token")"
   fi
 
