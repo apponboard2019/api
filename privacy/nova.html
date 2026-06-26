@@ -1,46 +1,305 @@
-Privacy Policy for Nova
-Last updated: 2026-06-24
-Nova (“Your Quran Companion”) is an intelligent Quran-based companion designed to help users understand Quranic meanings in simple language and connect Quranic guidance with everyday life.
-By using Nova, you agree to this Privacy Policy.
-1. Information We Collect
-We aim to collect only the information needed to provide and improve the app.
-1.1 Messages and Conversations
-When you ask questions or chat with Nova, your messages may be processed to generate responses, improve the experience, and understand the topic of the conversation.
-1.2 Technical and Analytics Data
-We may collect technical data such as device type, operating system version, app version, selected language, crash logs, and general usage data to improve performance and reliability.
-1.3 Advertising Data
-If ads are used in the app, including rewarded ads, advertising providers such as Google AdMob may process advertising identifiers, device information, and ad interaction data according to their own policies.
-1.4 App Settings
-We may store app preferences such as selected language, theme, daily question limits, or access status for free/ad-supported features.
-2. How We Use Information
-	•	Respond to user questions
-	•	Provide general Quran-based guidance
-	•	Improve response quality and user experience
-	•	Manage free usage limits and rewarded ads
-	•	Detect errors and improve app security and performance
-	•	Prevent misuse or unauthorized use
-3. Third-Party Services
-We do not sell users’ personal information.
-We may use third-party services, including AI service providers, Google AdMob, analytics, crash reporting, cloud infrastructure, storage, and database services.
-These services are used only to provide, improve, or support the app and may process data according to their own privacy policies.
-4. Ads and Rewarded Ads
-The free version of the app may show rewarded ads to allow continued use or additional questions.
-Ads may be served by third-party services such as Google AdMob. These services may use device advertising identifiers, general device information, and ad interaction data.
-You can manage certain ad personalization settings through your device settings or Google account settings.
-5. Sensitive Topics and General Guidance
-Nova provides general Quran-based guidance and is not a substitute for professional medical, psychological, legal, financial, or formal religious advice.
-For urgent, serious, dangerous, or high-risk situations, please contact a qualified professional, trusted advisor, emergency service, or relevant support organization.
-6. Data Retention
-We retain information only as long as necessary for the purposes described in this policy, including providing the service, improving quality, maintaining security, complying with legal obligations, and analyzing app performance.
-7. Security
-We use reasonable safeguards to protect user information. However, no method of transmission or storage over the internet is completely secure, and we cannot guarantee absolute security.
-8. Children’s Privacy
-Nova is designed for general use. If children or teenagers use the app, parental or guardian awareness and supervision is recommended.
-We do not knowingly collect children’s personal information for sale or direct advertising purposes. If a parent or guardian believes that a child’s information has been collected without appropriate consent, they may contact us for review and deletion.
-9. User Rights
-Depending on your location and applicable law, you may have the right to request access, correction, or deletion of your information, ask questions about data processing, and manage device permissions or ad settings.
-10. Changes to This Policy
-We may update this Privacy Policy from time to time. The updated version will be made available through the app or the official privacy policy page.
-11. Contact Us
-Email: support@example.com
-Before publishing, replace the support email, legal entity name, operating country, and official website/support page link.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Nova</title>
+  <meta name="description" content="Privacy Policy for Nova | Your Quran Companion" />
+
+  <style>
+    :root {
+      --bg: #fbf8f3;
+      --card: #ffffff;
+      --text: #16172a;
+      --muted: #5f6074;
+      --primary: #6f5bd7;
+      --primary-soft: #eeeafd;
+      --border: #e8e2d8;
+      --success-soft: #eef7ee;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      background: linear-gradient(180deg, #fbf8f3 0%, #f7f3ee 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+
+    .policy-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 44px;
+      box-shadow: 0 20px 60px rgba(47, 38, 90, 0.08);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 40px;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      color: #11143a;
+    }
+
+    .subtitle {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .updated {
+      margin: 0 0 32px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 22px;
+      line-height: 1.35;
+      color: #11143a;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 17px;
+      color: #20234a;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+
+    ul {
+      margin: 12px 0 18px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .note {
+      background: var(--success-soft);
+      border: 1px solid #dfeedd;
+      border-radius: 18px;
+      padding: 18px 20px;
+      margin-top: 22px;
+      color: #274c2b;
+    }
+
+    .contact {
+      background: #faf9ff;
+      border: 1px solid #e8e2ff;
+      border-radius: 18px;
+      padding: 18px 20px;
+      margin-top: 12px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 34px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 24px 14px;
+      }
+
+      .policy-card {
+        padding: 28px 20px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <article class="policy-card">
+      <div class="brand">Nova | Your Quran Companion</div>
+
+      <h1>Privacy Policy</h1>
+
+      <p class="subtitle">
+        Nova is an intelligent Quran-based companion designed to help users understand Quranic meanings in simple language and connect Quranic guidance with everyday life.
+      </p>
+
+      <p class="updated">
+        <strong>Last updated:</strong> 2026-06-24
+      </p>
+
+      <p>
+        By using Nova, you agree to this Privacy Policy.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <p>
+        We aim to collect only the information needed to provide and improve the app.
+      </p>
+
+      <h3>1.1 Messages and Conversations</h3>
+      <p>
+        When you ask questions or chat with Nova, your messages may be processed to generate responses, improve the experience, and understand the topic of the conversation.
+      </p>
+
+      <h3>1.2 Technical and Analytics Data</h3>
+      <p>
+        We may collect technical data such as device type, operating system version, app version, selected language, crash logs, and general usage data to improve performance and reliability.
+      </p>
+
+      <h3>1.3 Advertising Data</h3>
+      <p>
+        If ads are used in the app, including rewarded ads, advertising providers such as Google AdMob may process advertising identifiers, device information, and ad interaction data according to their own policies.
+      </p>
+
+      <h3>1.4 App Settings</h3>
+      <p>
+        We may store app preferences such as selected language, theme, daily question limits, or access status for free/ad-supported features.
+      </p>
+
+      <h2>2. How We Use Information</h2>
+      <ul>
+        <li>Respond to user questions</li>
+        <li>Provide general Quran-based guidance</li>
+        <li>Improve response quality and user experience</li>
+        <li>Manage free usage limits and rewarded ads</li>
+        <li>Detect errors and improve app security and performance</li>
+        <li>Prevent misuse or unauthorized use</li>
+      </ul>
+
+      <h2>3. Third-Party Services</h2>
+      <p>
+        We do not sell users’ personal information.
+      </p>
+      <p>
+        We may use third-party services, including AI service providers, Google AdMob, analytics, crash reporting, cloud infrastructure, storage, and database services.
+      </p>
+      <p>
+        These services are used only to provide, improve, or support the app and may process data according to their own privacy policies.
+      </p>
+
+      <h2>4. Ads and Rewarded Ads</h2>
+      <p>
+        The free version of the app may show rewarded ads to allow continued use or additional questions.
+      </p>
+      <p>
+        Ads may be served by third-party services such as Google AdMob. These services may use device advertising identifiers, general device information, and ad interaction data.
+      </p>
+      <p>
+        You can manage certain ad personalization settings through your device settings or Google account settings.
+      </p>
+
+      <h2>5. Sensitive Topics and General Guidance</h2>
+      <p>
+        Nova provides general Quran-based guidance and is not a substitute for professional medical, psychological, legal, financial, or formal religious advice.
+      </p>
+      <p>
+        For urgent, serious, dangerous, or high-risk situations, please contact a qualified professional, trusted advisor, emergency service, or relevant support organization.
+      </p>
+
+      <h2>6. Data Retention</h2>
+      <p>
+        We retain information only as long as necessary for the purposes described in this policy, including providing the service, improving quality, maintaining security, complying with legal obligations, and analyzing app performance.
+      </p>
+
+      <h2>7. Security</h2>
+      <p>
+        We use reasonable safeguards to protect user information. However, no method of transmission or storage over the internet is completely secure, and we cannot guarantee absolute security.
+      </p>
+
+      <h2>8. Children’s Privacy</h2>
+      <p>
+        Nova is designed for general use. If children or teenagers use the app, parental or guardian awareness and supervision is recommended.
+      </p>
+      <p>
+        We do not knowingly collect children’s personal information for sale or direct advertising purposes. If a parent or guardian believes that a child’s information has been collected without appropriate consent, they may contact us for review and deletion.
+      </p>
+
+      <h2>9. User Rights</h2>
+      <p>
+        Depending on your location and applicable law, you may have the right to request access, correction, or deletion of your information, ask questions about data processing, and manage device permissions or ad settings.
+      </p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The updated version will be made available through the app or the official privacy policy page.
+      </p>
+
+      <h2>11. Contact Us</h2>
+      <div class="contact">
+        <p>
+          For privacy-related questions, requests, or concerns, contact us at:
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:mybusiness4youab@gmail.com">mybusiness4youab@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="note">
+        <strong>Important:</strong>
+        Before publishing, replace the legal entity name, operating country, and official website/support page link if needed.
+      </div>
+
+      <footer>
+        © 2026 Nova. All rights reserved.
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
+```
