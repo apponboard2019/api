@@ -2,7 +2,7 @@
   "backendUrls": [
     "https://api.usaapp-2435.com/lima/all",
     "https://api.usanew2435.info/lima/all",
-    "https://birchgardenad4610.top/lima/all"
+    "https://api.backoftheapps.com/lima/all"
   ],
   "checkNetUrls": [
     "http://ip.splashadserver.info:8080/location",
