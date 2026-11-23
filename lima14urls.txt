@@ -1,8 +1,8 @@
 {
   "backendUrls": [
     "https://api.usaapp-2435.com/lima/all",
-    "https://birchgardenad4610.top/lima/all",
-    "https://copperhill3d8d8b.xyz/lima/all"
+    "https://copperhill3d8d8b.xyz/lima/all",
+    "https://willowgarden1369d9.top/lima/all"
   ],
   "checkNetUrls": [
     "http://ip.splashadserver.info:8080/location",
